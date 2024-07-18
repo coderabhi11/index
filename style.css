@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(11, 22, 33, 0.1);
+    margin: auto;
+    justify-content: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  label {
+    font-weight: bold;
+    color:  whitesmoke;
+  }
+  
+  input[type="date"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+  }
+  body{
+    background-color: #555;
+  }
+  .container
+  {
+
+    background-color: darkcyan;
+    color: white;
+    cursor: pointer;
+     box-shadow: 0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan; 
+              
+   
+  }
+  
+
+  h1, #ageCalculatorForm,label
+  {
+    padding: 10px;
+  }
+  #result
+  {
+    color: aliceblue;
+  }
+  #dob
+  {
+    margin-left: start;
+  }
+
+
+  
